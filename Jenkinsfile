@@ -1,4 +1,4 @@
-node {
+node ('macbook') {
   deleteDir()
   checkout scm
   
