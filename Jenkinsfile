@@ -1,5 +1,5 @@
 node ('macbook') {
-  deleteDir()
+  //deleteDir()
   checkout scm
   
   docker.image('cloudbees/java-build-tools').inside {
